@@ -73,7 +73,6 @@
 main {
     overflow: hidden;
 }
-
         .btn, .btn:hover, .btn:focus, .btn:active {
             box-shadow: 0 !important;
             border-radius: 2px !important;
@@ -118,11 +117,6 @@ main {
             color: #fff;
             background-color: #ff6363;
             font-weight: 800;
-
-                padding-left: 40px;
-    padding-right: 40px;
-    font-size: 128%;
-
         }
         .navbar-default .navbar-nav>.active>a:hover,
         .navbar-default .navbar-nav>.active>a:focus {
@@ -145,7 +139,7 @@ main {
             margin: 0;
             font-weight: 800;
             letter-spacing: -0.03em;
-            font-size: 85px;
+            font-size: 75px;
             line-height: 1;
             margin: 17% 0 15%;
             color: #fff;
@@ -269,115 +263,112 @@ main {
 </head>
 <body>
 
-    <br>
-    <br>
-    <br>
+<br>
+<br>
+<br>
 
     <main>
 
-
-        <nav class="navbar navbar-default navbar-fixed-top">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="/"><strong>🥃  📦 Scotch Box</strong></a>
-                </div>
-                <div id="navbar" class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav">
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Docs <span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-
-                                <li class="dropdown-header">How-To's</li>
-                                <li><a href="https://box.scotch.io/docs">Get Started</a></li>
-                                <li><a href="https://box.scotch.io/docs">Vagrant Intro</a></li>
-                                <li><a href="https://box.scotch.io/docs">Access the Database</a></li>
-                                <li><a href="https://box.scotch.io/docs">Upgrade the Box</a></li>
-                                <li><a href="https://box.scotch.io/docs">Set a Hostname</a></li>
-
-                                <li role="separator" class="divider"></li>
-
-                                <li class="dropdown-header">Blog Posts (old stuff is still good)</li>
-                                <li><a href="https://scotch.io/bar-talk/announcing-scotch-box-pro">3.0 Release Article</a></li>
-                                <li><a href="https://scotch.io/bar-talk/announcing-scotch-box-2-5">2.5 Release Article</a></li>
-                                <li><a href="https://scotch.io/bar-talk/announcing-scotch-box-2-0-our-dead-simple-vagrant-lamp-stack-improved">2.0 Release Article</a></li>
-                                <li><a href="https://scotch.io/bar-talk/introducing-scotch-box-a-vagrant-lamp-stack-that-just-works">1.0 Release Article</a></li>
-
-                            </ul>
-                        </li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pro Docs <span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-
-                                <li class="dropdown-header">Pro Stuff</li>
-                                <li><a href="https://box.scotch.io/members">Get Started</a></li>
-                                <li><a href="https://box.scotch.io/members">NGINX Version</a></li>
-                                <li><a href="https://box.scotch.io/members">Build Scripts</a></li>
-                                <li><a href="https://box.scotch.io/members">Create a Personalized / Custom Box</a></li>
-
-                                <li role="separator" class="divider"></li>
-                                <li class="dropdown-header">Support</li>
-                                <li><a href="https://github.com/mitchellh/vagrant/issues">Vagrant Questions</a></li>
-                                <li><a href="https://github.com/scotch-io/scotch-box/issues">Scotch Box Questions</a></li>
-
-                            </ul>
-                        </li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Common Questions <span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-
-                                <li class="dropdown-header">General Questions</li>
-                                <li><a href="https://box.scotch.io/common-questions">Why no __________?</a></li>
-                                <li><a href="https://box.scotch.io/common-questions">Why no phpMyAdmin?</a></li>
-                                <li><a href="https://box.scotch.io/common-questions">Why no XDebug?</a></li>
-
-                                <li role="separator" class="divider"></li>
-
-                                <li class="dropdown-header">Guides</li>
-                                <li><a href="https://box.scotch.io/common-questions">How to Install Laravel?</a></li>
-                                <li><a href="https://box.scotch.io/common-questions">How to Install WordPress?</a></li>
-                                <li><a href="https://box.scotch.io/common-questions">Custom Provisioning?</a></li>
-
-                                <li role="separator" class="divider"></li>
-
-                                <li class="dropdown-header">Vagrant Issues</li>
-                                <li><a href="https://box.scotch.io/common-questions">Vagrant is slow!</a></li>
-                                <li><a href="https://box.scotch.io/common-questions">SSH not working?</a></li>
-                                <li><a href="https://box.scotch.io/common-questions">Weird authentication issues? Can't connect to box</a></li>
-
-                                <li role="separator" class="divider"></li>
-
-                                <li class="dropdown-header">Modifying the box</li>
-                                <li><a href="https://box.scotch.io/common-questions">Maria DB?</a></li>
-                                <li><a href="https://box.scotch.io/common-questions">Multiple Domains? (virtualhost)</a></li>
-
-                            </ul>
-                        </li>
-
-                        <li>
-                            <a href="https://wpdistillery.org" target="_blank" role="button" aria-expanded="false"><i class="fa fa-wordpress"></i> WPDistillery</a>
-                        </li>
-
-                    </ul>
-                    <ul class="nav navbar-nav navbar-right">
-                             <li>
-        <a href="https://scotch.io" target="_blank" style="
-        position: relative;
-        "><img src="https://scotch.io/img/icons/gold/favicon-96x96.png" style="max-width: 25px;position: absolute;left: -15px;top: 11px;"> Scotch.io</a>
-                        </li>
-
-                        <li class="active"><a href="https://box.scotch.io/pro">Go Pro</a></li>
-                    </ul>
-                </div>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/"><strong>🥃  📦 Scotch Box</strong></a>
             </div>
-        </nav>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Docs <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
 
+                            <li class="dropdown-header">How-To's</li>
+                            <li><a href="https://box.scotch.io/docs">Get Started</a></li>
+                            <li><a href="https://box.scotch.io/docs">Vagrant Intro</a></li>
+                            <li><a href="https://box.scotch.io/docs">Access the Database</a></li>
+                            <li><a href="https://box.scotch.io/docs">Upgrade the Box</a></li>
+                            <li><a href="https://box.scotch.io/docs">Set a Hostname</a></li>
 
+                            <li role="separator" class="divider"></li>
+
+                            <li class="dropdown-header">Blog Posts (old stuff is still good)</li>
+                            <li><a href="https://scotch.io/bar-talk/announcing-scotch-box-pro">3.0 Release Article</a></li>
+                            <li><a href="https://scotch.io/bar-talk/announcing-scotch-box-2-5">2.5 Release Article</a></li>
+                            <li><a href="https://scotch.io/bar-talk/announcing-scotch-box-2-0-our-dead-simple-vagrant-lamp-stack-improved">2.0 Release Article</a></li>
+                            <li><a href="https://scotch.io/bar-talk/introducing-scotch-box-a-vagrant-lamp-stack-that-just-works">1.0 Release Article</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pro Docs <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+
+                            <li class="dropdown-header">Pro Stuff</li>
+                            <li><a href="https://box.scotch.io/members">Get Started</a></li>
+                            <li><a href="https://box.scotch.io/members">NGINX Version</a></li>
+                            <li><a href="https://box.scotch.io/members">Build Scripts</a></li>
+                            <li><a href="https://box.scotch.io/members">Create a Personalized / Custom Box</a></li>
+
+                            <li role="separator" class="divider"></li>
+                            <li class="dropdown-header">Support</li>
+                            <li><a href="https://github.com/mitchellh/vagrant/issues">Vagrant Questions</a></li>
+                            <li><a href="https://github.com/scotch-io/scotch-box/issues">Scotch Box Questions</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Common Questions <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+
+                            <li class="dropdown-header">General Questions</li>
+                            <li><a href="https://box.scotch.io/common-questions">Why no __________?</a></li>
+                            <li><a href="https://box.scotch.io/common-questions">Why no phpMyAdmin?</a></li>
+                            <li><a href="https://box.scotch.io/common-questions">Why no XDebug?</a></li>
+
+                            <li role="separator" class="divider"></li>
+
+                            <li class="dropdown-header">Guides</li>
+                            <li><a href="https://box.scotch.io/common-questions">How to Install Laravel?</a></li>
+                            <li><a href="https://box.scotch.io/common-questions">How to Install WordPress?</a></li>
+                            <li><a href="https://box.scotch.io/common-questions">Custom Provisioning?</a></li>
+
+                            <li role="separator" class="divider"></li>
+
+                            <li class="dropdown-header">Vagrant Issues</li>
+                            <li><a href="https://box.scotch.io/common-questions">Vagrant is slow!</a></li>
+                            <li><a href="https://box.scotch.io/common-questions">SSH not working?</a></li>
+                            <li><a href="https://box.scotch.io/common-questions">Weird authentication issues? Can't connect to box</a></li>
+
+                            <li role="separator" class="divider"></li>
+
+                            <li class="dropdown-header">Modifying the box</li>
+                            <li><a href="https://box.scotch.io/common-questions">Maria DB?</a></li>
+                            <li><a href="https://box.scotch.io/common-questions">Multiple Domains? (virtualhost)</a></li>
+
+                        </ul>
+                    </li>
+                    
+                    <li>
+                        <a href="https://wpdistillery.org" target="_blank" role="button" aria-expanded="false"><i class="fa fa-wordpress"></i> WPDistillery</a>
+                    </li>
+
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                         <li>
+    <a href="https://scotch.io" target="_blank" style="
+    position: relative;
+    "><img src="https://scotch.io/img/icons/gold/favicon-96x96.png" style="max-width: 25px;position: absolute;left: -15px;top: 11px;"> Scotch.io</a>
+                    </li>
+
+                    <li class="active"><a href="https://box.scotch.io/pro">Go Pro</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
         <article>
             <header class="make-me-a-princess">
                 <div class="container-fluid">
@@ -386,9 +377,9 @@ main {
                             <h1>
                                 🤩 🚀 😎 🐕
                                 <br>
-                                Welcome to Scotch Box
+                                Welcome to Scotch Box Pro
                             </h1>
-                            <p>Free Version 3.5 ❤️</p>
+                            <p>Pro Version 1.5 ❤️</p>
                         </div>
                     </div>
                 </div>
@@ -398,23 +389,7 @@ main {
                     <div class="row">
                         <div class="col-md-8 col-md-offset-2">
                             <h2>Just a dead-simple local LAMP/LEMP stack for developers.</h2>
-                            <p class="lead">This version is free and does everything you could possibly imagine. Please consider supporting this project by going <strong>pro</strong> and getting a bit more features and cool things.</p>
-                            <h4>Some Pro Features Include:</h4>
-                            <ul style="padding: 0; list-style: none;">
-                                <li>NEW OS: Ubuntu-17.10!</li>
-                                <li>NEW PHP: PHP 7.2!</li>
-                                <li>NEW APACHE: 2.4.29</li>
-                                <li>NEW NGINX: 1.13.8</li>
-                                <li>NEW RUBY via RVM: 2.5.0</li>
-                                <li>NEW NODE via NVM: 8.9.4</li>
-                                <li>NEW BUILD SCRIPTS</li>
-                                <li>Fixes a MongoDB and PHP bug</li>
-                                <li>Laravel routing works out of the box with the NGINX version</li>
-                                <li>Adds Drush (Launcher) even though you should do this through Composer these days</li>
-                                <li>Updated WP-CLI version</li>
-                                <li>Generally WAY higher versions of everything else</li>
-                            </ul>
-                            <a href="https://box.scotch.io/pro" class="btn btn-danger">Go Pro</a>
+                            <p>Thank you for supporting Scotch Box. Your contribution will help continue support and growth of making development easy as cake to get started.</p>
                         </div>
                     </div>
                 </div>
@@ -446,7 +421,7 @@ main {
                                 </tr>
                                 <tr>
                                     <td><strong>OS</strong></td>
-                                    <td>Ubuntu 16.04 LTS (Xenial Xerus)</td>
+                                    <td>Ubuntu 17.01 (Artful Aardvark)</td>
                                     <td>✅</td>
                                 </tr>
                                 <tr>
@@ -456,17 +431,17 @@ main {
                                 </tr>
                                 <tr>
                                     <td><strong>PHP</strong></td>
-                                    <td>7.0.15</td>
+                                    <td>7.2.2</td>
                                     <td>✅</td>
                                 </tr>
                                 <tr>
                                     <td><strong>Python</strong></td>
-                                    <td>2.7</td>
+                                    <td>2.7.4</td>
                                     <td>✅</td>
                                 </tr>
                                 <tr>
                                     <td><strong>Node.js</strong></td>
-                                    <td>6.10.3 (via NVM!)</td>
+                                    <td>8.9.4 (via NVM!)</td>
                                     <td>✅</td>
                                 </tr>
                                 <tr>
@@ -478,12 +453,12 @@ main {
                                 </tr>
                                 <tr>
                                     <td><strong>Ruby</strong></td>
-                                    <td>2.4 (via RVM!)</td>
+                                    <td>2.5 (via RVM!)</td>
                                     <td>✅</td>
                                 </tr>
                                 <tr>
                                     <td><strong>Vim</strong></td>
-                                    <td>7.4</td>
+                                    <td>8.0</td>
                                     <td>✅</td>
                                 </tr>
                                 <tr>
@@ -493,12 +468,12 @@ main {
                                 </tr>
                                 <tr>
                                     <td><strong>Imagemagick</strong></td>
-                                    <td>6.8.9</td>
+                                    <td>6.9</td>
                                     <td>✅</td>
                                 </tr>
                                 <tr>
                                     <td><strong>Curl</strong></td>
-                                    <td>7.47</td>
+                                    <td>7.55</td>
                                     <td>✅</td>
                                 </tr>
                                 <tr>
@@ -544,7 +519,7 @@ main {
                                 </tr>
                                 <tr>
                                     <td><strong>PHP</strong></td>
-                                    <td>7.0.15</td>
+                                    <td>7.2.2</td>
                                     <td>✅</td>
                                 </tr>
                                 <tr>
@@ -787,7 +762,7 @@ main {
                             <table class="table table-responsive table-striped table-hover">
                                 <tr>
                                     <th colspan="3">
-                                        <h3>PostgreSQL 9.5.6</h3>
+                                        <h3>PostgreSQL 9.6.7</h3>
                                     </th>
                                 </tr>
                                 <tr>
@@ -838,7 +813,7 @@ main {
                             <table class="table table-responsive table-striped table-hover">
                                 <tr>
                                     <th colspan="3">
-                                        <h3>MongoDB 2.6.10</h3>
+                                        <h3>MongoDB 3.2.19</h3>
                                     </th>
                                 </tr>
                                 <tr>
@@ -1022,7 +997,7 @@ main {
                                 </tr>
                                 <tr>
                                     <td><strong>Node.js</strong></td>
-                                    <td>6.10.3</td>
+                                    <td>8.9.43</td>
                                     <td>✅</td>
                                 </tr>
                                 <tr>
@@ -1032,12 +1007,12 @@ main {
                                 </tr>
                                 <tr>
                                     <td><strong>NPM</strong></td>
-                                    <td>3.10.10</td>
+                                    <td>5.6.0</td>
                                     <td>✅</td>
                                 </tr>
                                 <tr>
                                     <td><strong>Yarn</strong></td>
-                                    <td>0.24.5</td>
+                                    <td>1.5.1</td>
                                     <td>✅</td>
                                 </tr>
                                 <tr>
@@ -1168,7 +1143,41 @@ main {
                 </div>
             </section>
             <hr>
-
+            <section class="info-blocks" id="share-stuff">
+                <div class="row">
+                    <div class="col-md-4 col-sm-6">
+                        <div class="make-me-a-princess add-padding-fat text-center">
+                            <h2>Share Stuff</h2>
+                            <p>This box works with "Vagrant Share" again finally.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-8 col-sm-6">
+                        <div class="make-me-a-princess">
+                            <table class="table table-responsive table-striped table-hover">
+                                <tr>
+                                    <th>
+                                        <h3>Share it on the web</h3>
+                                        <p>Create a local tunnel to your machine to share with clients or friends.</p>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <br>
+                                        <div class="credentials">
+                                            <div class="form-group">
+                                                <label>How To</label>
+                                                <div class="form-group">
+                                                    <input type="text" value="vagrant share" class="form-control">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </article>
 
         <footer>
